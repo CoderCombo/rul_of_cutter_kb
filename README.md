@@ -19,8 +19,7 @@ PHM的全称为Prognostics and Health Management，其目的在于不需要了�
 把“工况模式”这一特征和其他传感器特征拼接在一起，送入回归学习器进行训练。
 本项目实现了探索“工况模式”代码，只需要稍加修改，便可以进行训练。
 此外，在数据探索过程中发现，主轴负载(spindle_load)具有比较好的趋势性。因此有一种很简便但是不够精确的方法是：直接基于‘spindle_load’特征，训练回归模型。之所以这样可以做的原因是：相对于其他的特征来说，只有‘spindle_load’具有较好的长期趋势性，可见工况等因素对它的影响较小。  
- <div align=center><img  src="https://github.com/CoderCombo/rul_of_cutter/blob/master/splendid_load%E8%B6%8B%E5%8A%BF%E6%80%A7.PNG"/>
- </div>  
+ 
  ‘spindle_load’具有较好的长期趋势性
  
 #### 3.不需要考虑工况
