@@ -1,7 +1,7 @@
 # 刀具剩余寿命预测
 ## 背景介绍 ##
 　　提供了刀具全生命周期的实验数据，数据分为控制器数据（plc）和振动采集数据（sensor），任务是给定一段时间刀具的数据，对其寿命进行预测。
-PHM的全称为Prognostics and Health Management，其目的在于不需要了解太多的领域知识的前提下，构建基于数据驱动的模型来实现相应的任务。PHM的主要任务可分为四类：健康评估(Health Assessment)、故障检测(Fault Detction）、故障诊断(Fault Diagnosis)以及预测(Prognosis)。其中本次比赛会涉及到了PHM的健康评估和预测两方面的问题。
+PHM的全称为Prognostics and Health Management，其目的在于不需要了解太多的领域知识的前提下，构建基于数据驱动的模型来实现相应的任务。PHM的主要任务可分为四类：健康评估(Health Assessment)、故障检测(Fault Detction）、故障诊断(Fault Diagnosis)以及预测(Prognosis)。其中会涉及到了PHM的健康评估和预测两方面的问题。
 
 ## 思路分析 ##
 　　控制器数据可以用于做工况的模式匹配，提取振动采集数据中有用特征。
